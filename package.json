@@ -1,0 +1,23 @@
+{
+  "name": "angularjs-component-local-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/taku-o/angularjs-component-local-test.git"
+  },
+  "author": "taku-o <mail@nanasi.jp> (https://nanasi.jp/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taku-o/angularjs-component-local-test/issues"
+  },
+  "homepage": "https://github.com/taku-o/angularjs-component-local-test#readme",
+  "dependencies": {
+    "angular": "^1.7.7"
+  },
+  "devDependencies": {}
+}
