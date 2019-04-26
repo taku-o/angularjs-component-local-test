@@ -8,6 +8,8 @@ class MainA {
 }
 class MainB {
 }
+class Incl {
+}
 
 angular.module('mainApp', [])
   .component('app-header', {
@@ -29,4 +31,10 @@ angular.module('mainApp', [])
   .component('main-b', {
     controller: MainB,
     templateUrl: 'component/main-b.html',
-  });
+  })
+  .component('incl', {
+    controller: Incl,
+    templateUrl: function($element, $attrs) {
+      return 'component/'+ $attrs.content + '.html';
+    }
+  })
