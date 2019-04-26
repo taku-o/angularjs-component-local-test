@@ -4,10 +4,10 @@
 angularjs.
 read html from js test.
 
-[OK] pattern 1.
+[NG] pattern 1.
 read html with component.
 
-[OK] pattern 2.
+[NG] pattern 2.
 component content with ng-if
 
 [NG] pattern 3.

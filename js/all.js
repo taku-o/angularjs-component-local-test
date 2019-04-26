@@ -8,6 +8,9 @@ class MainA {
 }
 class MainB {
 }
+class MainC {
+  wrap = false;
+}
 class Incl {
 }
 
@@ -24,7 +27,7 @@ angular.module('mainApp', [])
     controller: AppMenu,
     templateUrl: 'component/app-menu.html',
   })
-  .component('main-a', {
+  .component('mainA', {
     controller: MainA,
     templateUrl: 'component/main-a.html',
   })
@@ -32,9 +35,14 @@ angular.module('mainApp', [])
     controller: MainB,
     templateUrl: 'component/main-b.html',
   })
+  .component('main-c', {
+    controller: MainC,
+    templateUrl: 'component/main-c.html',
+  })
   .component('incl', {
     controller: Incl,
     templateUrl: function($element, $attrs) {
       return 'component/'+ $attrs.content + '.html';
     }
   })
+
